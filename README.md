@@ -11,21 +11,21 @@ These are commands that everyone can use.
 | Command  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | `/room create`  | None  | Creates a room for the user with the default settings
-| `/room title`  | <title>| Sets the room's title to the specified title
+| `/room title`  | {title}| Sets the room's title to the specified title
 | `/room lock` | None | Locks the room so that no one can join
-| `/room kick` | <user> | Kicks the selected user from the room
-| `/room ban` | <user> | Bans the selected user from the room |
-| `/room whitelist` | <state> | Sets the state of whitelist, if none then toggles state|
-| `/room whitelist set` | <user1>...<user9> | Set the whitelist for the room |
+| `/room kick` | {user} | Kicks the selected user from the room
+| `/room ban` | {user} | Bans the selected user from the room |
+| `/room whitelist` | {state} | Sets the state of whitelist, if none then toggles state|
+| `/room whitelist set` | {user1}...{user9} | Set the whitelist for the room |
 
 ### Admin Commands
 These are commands only admins can use.
 | Command  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | `/room nuke`  | None  | Destroys all rooms currently open
-| `/room destroy`  | <room> | Destroys specified room
-| `/room jtc` | <title> | ✨Creates a join-to-create voice channel with the title✨
-| `/room halt` | <state> | Stops allowing rooms to be created specified by state
+| `/room destroy`  | {room} | Destroys specified room
+| `/room jtc` | {title} | ✨Creates a join-to-create voice channel with the title✨
+| `/room halt` | {state} | Stops allowing rooms to be created specified by state
  
 
 
