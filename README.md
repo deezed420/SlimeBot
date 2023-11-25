@@ -32,4 +32,5 @@ These are commands only admins can use.
 ## Roadmap
 - Add room dashboard for each user
 - Add the only friends option
+- Use modals when available
 - Add website dashboard
