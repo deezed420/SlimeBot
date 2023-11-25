@@ -23,7 +23,7 @@ These are commands only admins can use.
 | Command  | Arguments | Description |
 | ------------- | ------------- | ------------- |
 | `/room nuke`  | None  | Destroys all rooms currently open
-| `/room destroy`  | <room>| Destroys specified room
+| `/room destroy`  | <room> | Destroys specified room
 | `/room jtc` | <title> | ✨Creates a join-to-create voice channel with the title✨
 | `/room halt` | <state> | Stops allowing rooms to be created specified by state
  
